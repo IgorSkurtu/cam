@@ -1,4 +1,4 @@
-var cv = require('opencv');
+var cv = require('opencv4nodejs');
 
 try {
   var camera = new cv.VideoCapture(0);
